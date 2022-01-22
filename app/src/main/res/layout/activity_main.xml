@@ -23,76 +23,73 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/white"
-                android:orientation="vertical">
-
-            <ImageView
-                android:layout_width="150dp"
-                android:layout_height="150dp"
-                android:layout_gravity="center"
-                android:layout_marginVertical="16dp"
-                android:src="@mipmap/gato"/>
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:textStyle="bold"
-                    android:textSize="20dp"
-                    android:text="Join Redbubble"
-                    android:textColor="@color/black"
-                    />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:textSize="15dp"
-                    android:text="Get deals. Shop personalized picks. Saved Faves."
-                    android:textColor="@color/black"
-                    android:textFontWeight="50" />
-
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:padding="16dp"
-                    android:orientation="horizontal"
-                    >
+                    android:background="#E02959"
+                    android:orientation="vertical">
 
-                    <Button
+                    <ImageView
                         android:layout_width="150dp"
-                        android:layout_height="50dp"
-                        android:textStyle="bold"
-                        android:backgroundTint="@color/white"
-                        android:text="Sing Up"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black" />
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginVertical="16dp"
+                        android:src="@mipmap/gato" />
 
-                    <Space
+
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1" />
+                        android:layout_gravity="center"
+                        android:text="Join Redbubble"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="Get deals. Shop personalized picks. Saved Faves."
+                        android:textColor="@color/black"
+                        android:textFontWeight="50"
+                        android:textSize="15dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="16dp">
+
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/white"
+                            android:text="Log In"
+                            android:textAllCaps="false"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <Space
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1" />
 
 
+                        <Button
+                            android:layout_width="150dp"
+                            android:layout_height="50dp"
+                            android:backgroundTint="@color/white"
+                            android:text="Sign Up"
+                            android:textAllCaps="false"
+                            android:textColor="@color/red"
+                            android:textStyle="bold" />
 
-                    <Button
-                        android:layout_width="150dp"
-                        android:layout_height="50dp"
-                        android:textStyle="bold"
-                        android:backgroundTint="@color/white"
-                        android:text="Log In"
-                        android:textAllCaps="false"
-                        android:textColor="@color/black" />
+
+                    </LinearLayout>
 
 
                 </LinearLayout>
-
-
-            </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="match_parent"
